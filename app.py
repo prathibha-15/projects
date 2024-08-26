@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 model = tf.keras.models.load_model('deep_neural_network_model.h5')
 
 # Load and preprocess the dataset
-df = pd.read_csv('/content/drive/MyDrive/early+stage+diabetes+risk+prediction+dataset.zip')
+df = pd.read_csv('early+stage+diabetes+risk+prediction+dataset.zip')
 
 # Encode categorical variables
 label_encoders = {}
